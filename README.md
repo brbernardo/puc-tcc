@@ -1,5 +1,35 @@
 # SISTEMA DE LOGÍSTICA BASEADA EM MICROSSERVIÇOS
 
+---
+Sumario
+
+1. OBJETIVOS DO TRABAL QUICKSIGHT
+2. DESCRIÇÃO GERAL DA SOLUÇÃO	
+   2.1. APRESENTAÇÃO DO PROBLEMA	
+   2.2. DESCRIÇÃO GERAL DO SOFTWARE (ESCOPO)	
+3. DEFINIÇÃO CONCEITUAL DA SOLUÇÃO	
+   3.1. REQUISITOS FUNCIONAIS	
+   3.2 REQUISITOS NÃO-FUNCIONAIS	
+   3.3. RESTRIÇÕES ARQUITETURAIS	
+   3.4. MECANISMOS ARQUITETURAIS	
+4. MODELAGEM E PROJETO ARQUITETURAL	
+   4.1. MODELO DE COMPONENTES	
+   4.2. MODELO DE IMPLANTAÇÃO	
+   4.3. MODELO DE DADOS (OPCIONAL)	
+5. PROVA DE CONCEITO (POC) / PROTÓTIPO ARQUITETURAL	
+   5.1. IMPLEMENTAÇÃO E IMPLANTAÇÃO	
+   5.2 INTERFACES/ APIS	
+6. AVALIAÇÃO DA ARQUITETURA	
+   6.1. ANÁLISE DAS ABORDAGENS ARQUITETURAIS
+   6.2. CENÁRIOS	
+   6.3. AVALIAÇÃO	
+   6.4.  RESULTADO	
+7.  CONCLUSÃO	
+    REFERÊNCIAS	
+    APÊNDICES	
+
+
+---
 
 Trabalho de Conclusão de Curso de Especialização em Arquitetura de Software Distribuído como requisito parcial à obtenção do título de especialista.
 
@@ -95,3 +125,12 @@ Para implementação utilizarei o Terraform. Todo código estará disponível no
 
 ## 6.  Conclusão
 O objetivo deste trabalho foi apresentar um modelo arquitetural para sistemas de logística baseada em micro serviço. Vimos elementos arquiteturais como requisitos funcionais e não funcionais, diagramas de componentes baseados no C4 Model e nos aprofundamos na implementação da infraestrutura como mecanismo de teste do modelo arquitetural proposto.
+
+## REFERÊNCIAS
+Página da web, https://c4model.com/, vista em 2022.
+
+## APÊNDICES
+Repositório do projeto: https://github.com/brbernardo/puc-tcc
+
+Repositório do código da POC: https://github.com/brbernardo/puc-tcc/tree/main/poc
+
