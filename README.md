@@ -32,6 +32,37 @@ Esta seção apresenta uma definição conceitual da solução a ser desenvolvid
 2. Implementar integrações de seus sistemas com os de suas parceiras, de modo a propiciar que as entregas possam ser realizadas em parceria, em uma ou mais etapas do processo. Essas integrações requerem que os sistemas atuais sejam adaptados e novos componentes sejam incorporados visando a uma maior abertura, que será baseada na arquitetura orientada a serviços;
 3. Utilizar geotecnologias em todos os processos que envolvam localização, de forma a facilitar a identificação e atualização de informações relativas às entregas agendadas e realizadas;
 4. Tornar viável o uso de todas as tecnologias da informação e softwares necessários para atender às demandas dos clientes, fornecedores e parceiros, conforme definido neste documento.
+### 3.2 Requisitos Não-Funcionais
+1. Realizar todas as entregas com tempo médio inferior a 5 dias úteis;
+2. Expandir a atuação para mais 200 municípios de pequeno/médio porte;
+3. Passar a atuar na região norte do Brasil, último reduto que ela ainda não cobre, fazendo parcerias com uma empresa aérea e outras empresas de logística terrestre locais;
+4. Desenvolver novas parcerias com outras transportadoras, visando complementar sua atuação em lugares onde ela apresenta maketshare inferior a 10%;
+5. Fazer convênio com no mínimo 50 novos clientes, preferencialmente do ramo supermercadista;
+6. Crescer 10% em termos de faturamento global.
+### 3.3. Restrições Arquiteturais
+1. Possuir características de aplicação distribuída: abertura, portabilidade, uso de recursos de rede;
+2. Atender, de forma seletiva (por perfil) a clientes, fornecedores e colaboradores;
+3. Ser modular e componentizado, utilizando orientação a serviços;
+4. Ser de fácil implantação e utilização;
+5. Ser hospedado em nuvem híbrida, sendo a forma de hospedagem documentada;
+6. Suportar ambientes web e móveis;
+7. Possuir interface responsiva;
+8. Apresentar bom desempenho;
+9. Apresentar boa manutenibilidade;
+10. Ser testável em todas as suas funcionalidades;
+11. Ser recuperável (resiliente) no caso da ocorrência de erro;
+12. Utilizar APIs ou outros recursos adequados para consumo de serviços;
+13. Estar disponível em horário integral (24 H), sete dias por semana;
+14. Ser desenvolvido utilizando recursos de gestão de configuração, com integração contínua.
 
+## 4. Modelagem e projeto arquitetural
+Nesta seção são apresentados os diagramas que permitem entender a arquitetura da apli-cação, detalhando-a suficientemente para viabilizar sua implementação.
+### 4.1. Modelo de componentes
+Utilizarei o C4 Model como framework para diagramação apresentando nessa seção o nível 1 e o nível 2 desse projeto.
 
+O nível 1: O diagrama de contexto do sistema
+![level 1](./diagramas/1-level.svg)
+
+O nível 2: O diagrama de container
+![level 2](./diagramas/2-level.svg)
 
