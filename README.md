@@ -94,3 +94,4 @@ Utilizarei do mecanismo de História de Usuário para apresentar os requisitos f
 Para implementação utilizarei o Terraform. Todo código estará disponível no endereço: https://github.com/brbernardo/puc-tcc/tree/main/poc
 
 ## 6.  Conclusão
+O objetivo deste trabalho foi apresentar um modelo arquitetural para sistemas de logística baseada em micro serviço. Vimos elementos arquiteturais como requisitos funcionais e não funcionais, diagramas de componentes baseados no C4 Model e nos aprofundamos na implementação da infraestrutura como mecanismo de teste do modelo arquitetural proposto.
