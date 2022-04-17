@@ -24,8 +24,8 @@ Sumario
    6.2. CENÁRIOS	
    6.3. AVALIAÇÃO	
    6.4.  RESULTADO	
-7.  CONCLUSÃO	
-    REFERÊNCIAS	
+7.  CONCLUSÃO,	
+    REFERÊNCIAS e	
     APÊNDICES	
 
 
