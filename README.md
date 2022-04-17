@@ -61,8 +61,10 @@ Nesta seção são apresentados os diagramas que permitem entender a arquitetura
 Utilizarei o C4 Model como framework para diagramação apresentando nessa seção o nível 1 e o nível 2 desse projeto.
 
 O nível 1: O diagrama de contexto do sistema
+
 ![level 1](./diagramas/1-level.png)
 
 O nível 2: O diagrama de container
+
 ![level 2](./diagramas/2-level.png)
 
