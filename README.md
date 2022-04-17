@@ -68,3 +68,29 @@ O nível 2: O diagrama de container
 
 ![level 2](./diagramas/2-level.png)
 
+### 4.2. Modelo de implantação
+Para a implementação dessa arquitetura utilizaremos a modalidade em nuvem tendo a AWS como provedor.
+
+![level 2](./diagramas/ModeloDeImplantação.png)
+
+## 5. Prova de Conceito (POC) / protótipo arquitetural
+Nesta parte do trabalho é apresentada a POC desenvolvida com o intuito de atender aos requisitos especificados neste relatório.
+
+Além de descrever a POC, faz-se necessário deixar nesta seção o link do repositório da aplicação, lembrando que deve ser implementada somente parte da especificação fornecida.
+
+### 5.1. Implementação e Implantação
+Dentro do escopo desse trabalho, focaremos inicialmente na infraestrutura da aplicação e implementação de arquitetura na nuvem.
+
+Quanto a implementação da aplicação na nuvem, utilizaremos o EKS como serviço gerenciado de Kubernetes para oferecer os serviços computacionais para os usuários. Dentro do EKS trabalharemos com a aplicação sendo um único namespace e as funcionalidades estando em PODs distribuídos. Utilizaremos o Redshift como serviço de DW que será consumido externamente pelo EKS e o QuickShint como serviço de BI também consumido externamente.
+
+Utilizarei do mecanismo de História de Usuário para apresentar os requisitos funcionais que serão implementados para validar a arquitetura proposta.
+
+**História de Usuário 1:** Eu como gerente de engenharia quero tornar viável o uso de todas as tecnologias da informação e softwares necessários para atender às demandas dos clientes,
+
+**História de Usuário 2:** Eu como gerente de engenharia quero utilizar APIs ou outros recursos adequados para consumo de serviços.
+
+**História de Usuário 3:** Eu como gerente de engenharia quero que a infraestrutura seja desenvolvida utilizando recursos de gestão de configuração, com integração contínua,
+
+Para implementação utilizarei o Terraform. Todo código estará disponível no endereço: https://github.com/brbernardo/puc-tcc/tree/main/poc
+
+## 6.  Conclusão
