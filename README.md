@@ -1,10 +1,11 @@
----
+# SISTEMA DE LOGÍSTICA BASEADA EM MICROSSERVIÇOS
+
 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS
 NÚCLEO DE EDUCAÇÃO A DISTÂNCIA
 Pós-graduação Lato Sensu em Arquitetura de Software Distribuído
 ---
-# SISTEMA DE LOGÍSTICA BASEADA EM MICROSSERVIÇOS
-### Trabalho de Conclusão de Curso de Especialização em Arquitetura de Software Distribuído como requisito parcial à obtenção do título de especialista.
+
+Trabalho de Conclusão de Curso de Especialização em Arquitetura de Software Distribuído como requisito parcial à obtenção do título de especialista.
 
 ## RESUMO
 O presente trabalho foi proposto considerando a importância da área de logística, particularmente no que se refere à entrega de produtos diversos aos consumidores, no atual contexto de pandemia. As pessoas, não podendo sair de casa para realizar suas compras do dia-a-dia, tem se servido de sites de ecommerce, tais como: supermercados, farmácias, lojas, entre outros. Como solução veremos nesse trabalho um modelo arquitetural proposto para o contexto baseado em micro serviços.
