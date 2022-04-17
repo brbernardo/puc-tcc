@@ -336,19 +336,6 @@ output "cluster_name" {
 
 ```
 
-Se estiver tudo certo seu diretório estará assim
-
-```bash
-poc
-│   cloudfront.tf
-│   eks-cluster.tf
-│   kubernetes.tf
-│   main.tf
-│   outputs.tf
-│   security-groups.tf
-│   vpc.tf
-
-```
 ## Implementando o Redshift
 
 O Amazon Redshift usa SQL para analisar dados estruturados e semiestruturados em data warehouses, bancos de dados operacionais e data lakes, usando hardware e machine learning projetados pela AWS para oferecer a melhor performance de preço em qualquer escala.
@@ -409,6 +396,20 @@ resource "aws_quicksight_data_source" "default" {
 
   type = "S3"
 }
+```
+Se estiver tudo certo seu diretório estará assim
+
+```bash
+poc
+│   cloudfront.tf
+│   eks-cluster.tf
+│   kubernetes.tf
+│   main.tf
+│   outputs.tf
+│   quicksight.tf
+│   redshift.tf
+│   security-groups.tf
+│   vpc.tf
 ```
 
 Estando tudo certo, agora é só executar os comando init e apply
